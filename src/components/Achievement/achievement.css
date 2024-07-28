@@ -1,0 +1,18 @@
+.bg-silver{
+    background-color: var(--silver-color);
+}
+
+.text-green{
+    color: var(--shade-1);
+}
+
+.achievement{
+    margin-top: 10px;
+    border: 2px solid green;
+}
+
+.achievement-heading{
+    font-weight: bolder;
+    font-size: 1.5rem;
+    color: var(--darkGrey);
+}

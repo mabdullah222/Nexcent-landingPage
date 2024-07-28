@@ -1,0 +1,23 @@
+:root{
+    --primary-color:#28CB8B;
+    --secondary-color:#263238;
+    --info-color:#2194f3;
+    --semi-bold:600px;
+    --silver-color:#F5F7FA;
+
+    --LGrey:#89939e;
+    --darkGrey:#4d4d4d;
+    --greyBlue:#Abbde1;
+
+    --shade-1:#43A046;
+    --shade-2:#388E3b;
+    --shade-3:#237d31;
+    --shade-4:#1b5e15;
+    --shade-5:#103e13;
+
+    --tint-1:#66bb69;
+    --tint-2:#81c784;
+    --tint-3:#A5d6a7;
+    --tint-4:#c8e6c9;
+    --tint-5:#e8f5e9;
+}

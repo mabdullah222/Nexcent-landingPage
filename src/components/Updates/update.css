@@ -1,0 +1,13 @@
+.message{
+    position: absolute;
+    z-index: 2;
+    background-color: var(--tint-5);
+    bottom: -50px;
+    width: 70%;
+    border-radius: 5px;
+    box-shadow: 2px;
+}
+
+.margin-bottom{
+    min-height: 550px;
+}

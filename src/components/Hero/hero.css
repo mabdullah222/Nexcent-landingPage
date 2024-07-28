@@ -1,0 +1,57 @@
+.hero-section {
+    background-color: var(--silver-color);
+    min-height: 470px;
+  }
+  
+  .slide {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    align-items: center;
+    padding: 20px 0;
+  }
+  
+  .slide-img {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .slide-img img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .slide-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .slide-text-heading {
+    font-size: 3.5rem;
+    font-weight: bolder;
+  }
+  
+  .darkGreylighted {
+    color: var(--darkGrey);
+  }
+  
+  .green-lighted {
+    color: var(--shade-1);
+  }
+  
+  .slide-text-txt {
+    font-weight:lighter;
+    font-size: small;
+    color: var(--LGrey);
+  }
+  
+  .slide-heading-button {
+    background-color: var(--shade-1);
+    color: white;
+    border: none;
+    padding: 8px 15px;
+  }
+  

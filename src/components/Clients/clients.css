@@ -1,0 +1,9 @@
+.client-sect-1 p:nth-child(1){
+    color: var(--darkGrey);
+    font-weight: bolder;
+    font-size: 2.5rem;
+}
+
+.client-sect-1 p:nth-child(2){
+    color: var(--LGrey);
+}
