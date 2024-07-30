@@ -9,12 +9,17 @@ import Calender from './components/Calender/calender';
 import Customer from './components/Customer/customer';
 import Update from './components/Updates/update';
 import Footer from './components/Footer/footer';
-
+import About from './pages/About';
+import Services from './pages/Service';
+import ContactUs from './pages/Contact';
+import { BrowserRouter,Routes,Route } from 'react-router-dom';
 function App() {
 
   return (
-    <>
-      <Header2></Header2>
+    <BrowserRouter>
+    <Header2></Header2>
+      <Routes>
+        <Route path='/' element={<>
       <Hero></Hero>
       <Client></Client>
       <Community></Community>
@@ -23,8 +28,13 @@ function App() {
       <Calender></Calender>
       <Customer></Customer>
       <Update></Update>
-      <Footer></Footer>
-    </>
+      <Footer></Footer></>}></Route>
+      <Route path='about' element={<About></About>}></Route>
+      <Route path='contactus' element={<ContactUs></ContactUs>}></Route>
+      <Route path='services' element={<Services></Services>}></Route>
+      </Routes>
+      
+    </BrowserRouter>
   )
 }
 

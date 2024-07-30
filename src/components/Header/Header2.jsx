@@ -5,7 +5,7 @@ import Navbar from "react-bootstrap/Navbar";
 import Offcanvas from "react-bootstrap/Offcanvas";
 import logo from "../../assets/svgs/logo.svg";
 import "./header.css";
-
+import { Link } from "react-router-dom";
 function Header2() {
   return (
     <>
@@ -34,12 +34,12 @@ function Header2() {
               </Offcanvas.Header>
               <Offcanvas.Body>
                 <Nav className="justify-content-center flex-grow-2 nav-center">
-                  <Nav.Link href="#home" className="nav-links">Home</Nav.Link>
-                  <Nav.Link href="#features" className="nav-links">Service</Nav.Link>
-                  <Nav.Link href="#pricing" className="nav-links">Product</Nav.Link>
-                  <Nav.Link href="#pricing" className="nav-links">Feature</Nav.Link>
-                  <Nav.Link href="#pricing" className="nav-links">Testimonial</Nav.Link>
-                  <Nav.Link href="#pricing" className="nav-links">FAQ</Nav.Link>
+                  <Link className="nav-links" to="/">Home</Link>
+                  <Link className="nav-links" to="services">Service</Link>
+                  <Link className="nav-links" to={"about"}>About</Link>
+                  <Link className="nav-links">Feature</Link>
+                  <Link className="nav-links">Testimonial</Link>
+                  <Link className="nav-links" to="contactus">Contact Us</Link>
                 </Nav>
                 <div className="sect-3">
                   <a href="#login">Login</a>
